@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
   
-ARG platform=aaa
+ARG platform=buddy
 
 RUN apt update && apt install curl dnsutils python3 python3-pip -y
 
